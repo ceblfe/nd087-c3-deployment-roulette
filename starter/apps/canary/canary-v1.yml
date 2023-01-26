@@ -7,7 +7,6 @@ metadata:
   namespace: udacity
 spec:
   replicas: 3 #TODO Antes era 3. Cambiar a 6
-  # minReadySeconds: 5 # how long it should wait until it creates the next pod. #TODO añado esta linea
   selector:
     matchLabels:
       app: canary
