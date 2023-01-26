@@ -1,0 +1,15 @@
+bash-3.2$ kubectl get pods --all-namespaces
+NAMESPACE     NAME                           READY   STATUS    RESTARTS   AGE
+kube-system   aws-node-gfprw                 1/1     Running   0          26m
+kube-system   aws-node-rpqz7                 1/1     Running   0          26m
+kube-system   coredns-f47955f89-7cv7q        1/1     Running   0          31m
+kube-system   coredns-f47955f89-vbfl8        1/1     Running   0          31m
+kube-system   kube-proxy-jc5zd               1/1     Running   0          26m
+kube-system   kube-proxy-nzm5p               1/1     Running   0          26m
+udacity       blue-8475cbdf46-8j7sp          1/1     Running   0          15m
+udacity       blue-8475cbdf46-9wmk6          1/1     Running   0          15m
+udacity       blue-8475cbdf46-hld9m          1/1     Running   0          15m
+udacity       canary-v1-64598c676f-9p6qh     1/1     Running   0          15m
+udacity       canary-v2-5dc9c56687-8csv6     1/1     Running   0          10m
+udacity       canary-v2-5dc9c56687-q5g2z     1/1     Running   0          10m
+udacity       hello-world-794458d64d-llvg9   1/1     Running   0          15m
